@@ -1,0 +1,36 @@
+﻿@page
+@model AgenciaTurismo.Pages.CalculoDescontoModel
+@{
+    ViewData["Title"] = "Cálculo de Desconto";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Página para simular a aplicação de um desconto de 10% usando um delegate.</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="PrecoOriginal" class="control-label">Informe o preço original:</label>
+                <input asp-for="PrecoOriginal" class="form-control" type="number" step="0.01" />
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Calcular Desconto" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr />
+
+@* Esta seção só vai aparecer depois que o cálculo for feito *@
+@if (Model.PrecoComDesconto.HasValue)
+{
+    <div class="alert alert-success">
+        <h3>Resultado</h3>
+        <p>Preço Original Informado: <strong>@Model.PrecoOriginal.ToString("C")</strong></p>
+        <p>Preço com 10% de desconto: <strong>@Model.PrecoComDesconto.Value.ToString("C")</strong></p>
+    </div>
+}

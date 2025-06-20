@@ -1,0 +1,78 @@
+﻿@page
+@model AgenciaTurismo.Pages.ViewNotesModel
+@{
+    ViewData["Title"] = "Bloco de Notas";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+
+        <section>
+            <h4>Criar Nova Anotação</h4>
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group mb-2">
+                    <label asp-for="TituloNota" class="control-label"></label>
+                    <input asp-for="TituloNota" class="form-control" />
+                    <span asp-validation-for="TituloNota" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-2">
+                    <label asp-for="ConteudoNota" class="control-label"></label>
+                    <textarea asp-for="ConteudoNota" class="form-control" rows="5"></textarea>
+                    <span asp-validation-for="ConteudoNota" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Salvar Nota" class="btn btn-primary" />
+                </div>
+            </form>
+        </section>
+
+        <hr />
+
+        <section>
+            <h4>Notas Salvas</h4>
+            @if (Model.NomesDasNotas.Any())
+            {
+                <ul class="list-group">
+                    @foreach (var nomeNota in Model.NomesDasNotas)
+                    {
+                        <li class="list-group-item">
+                            <a asp-page="/ViewNotes" asp-route-view="@nomeNota">@nomeNota</a>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>Nenhuma nota salva ainda.</p>
+            }
+        </section>
+    </div>
+
+    <div class="col-md-8">
+        @if (!string.IsNullOrEmpty(Model.ConteudoNotaSelecionada))
+        {
+            <section>
+                <h4>Conteúdo de: @Model.TituloNotaSelecionada</h4>
+                <div class="card bg-light">
+                    <div class="card-body">
+                        @* A tag <pre> preserva espaços em branco e quebras de linha. *@
+                        @* O Razor (@) automaticamente codifica o conteúdo para HTML, *@
+                        @* o que nos protege contra ataques XSS. Isso garante a *@
+                        @* "exibição segura" pedida no objetivo. *@
+                        <pre style="white-space: pre-wrap;">@Model.ConteudoNotaSelecionada</pre>
+                    </div>
+                </div>
+            </section>
+        }
+        else
+        {
+            <div class="text-center mt-5">
+                <p class="text-muted">Selecione uma nota na lista para ver seu conteúdo aqui.</p>
+            </div>
+        }
+    </div>
+</div>

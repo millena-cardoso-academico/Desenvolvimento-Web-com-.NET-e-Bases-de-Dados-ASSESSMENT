@@ -1,0 +1,8 @@
+[LOG ARQUIVO] (18/06/2025 16:02:59): Nova reserva de pacote simulada em 16:02:59
+[LOG ARQUIVO] (18/06/2025 16:03:02): Nova reserva de pacote simulada em 16:03:02
+[LOG ARQUIVO] (18/06/2025 16:03:04): Nova reserva de pacote simulada em 16:03:04
+[LOG ARQUIVO] (18/06/2025 16:07:18): Nova reserva de pacote simulada em 16:07:18
+[LOG ARQUIVO] (18/06/2025 16:07:19): Nova reserva de pacote simulada em 16:07:19
+[LOG ARQUIVO] (18/06/2025 16:07:20): Nova reserva de pacote simulada em 16:07:20
+[LOG ARQUIVO] (18/06/2025 16:07:22): Nova reserva de pacote simulada em 16:07:22
+[LOG ARQUIVO] (18/06/2025 17:58:31): Nova reserva de pacote simulada em 17:58:31

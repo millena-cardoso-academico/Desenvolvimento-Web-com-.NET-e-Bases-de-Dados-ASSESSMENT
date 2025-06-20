@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\viewnotes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\viewnotes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\testarlogs.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\testarlogs.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\simularreservas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\simularreservas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\pacotedetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\pacotedetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\createpacote.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\createpacote.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\createcidade.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\createcidade.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\calculodesconto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\calculodesconto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\calcularestadia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\calcularestadia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\clientes\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\clientes\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\clientes\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\clientes\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\clientes\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\clientes\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\clientes\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\clientes\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\clientes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\clientes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|c:\\users\\natha\\documents\\assessment csharp\\agenciaturismo\\pages\\clientes\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63969019-5FE0-44DD-8063-45FB39CDF88F}|AgenciaTurismo.csproj|solutionrelative:pages\\clientes\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:47:36.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewNotes.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\ViewNotes.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ViewNotes.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\ViewNotes.cshtml.cs",
+              "RelativeToolTip": "Pages\\ViewNotes.cshtml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowFkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:46:46.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestarLogs.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\TestarLogs.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\TestarLogs.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\TestarLogs.cshtml.cs",
+              "RelativeToolTip": "Pages\\TestarLogs.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:46:33.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SimularReservas.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\SimularReservas.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\SimularReservas.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\SimularReservas.cshtml.cs",
+              "RelativeToolTip": "Pages\\SimularReservas.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:46:28.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Logout.cshtml.cs",
+              "RelativeToolTip": "Pages\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:46:03.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PacoteDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\PacoteDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\PacoteDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\PacoteDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\PacoteDetails.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:46:06.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T20:45:57.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:45:55.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreatePacote.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CreatePacote.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CreatePacote.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CreatePacote.cshtml.cs",
+              "RelativeToolTip": "Pages\\CreatePacote.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:45:39.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCidade.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CreateCidade.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CreateCidade.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CreateCidade.cshtml.cs",
+              "RelativeToolTip": "Pages\\CreateCidade.cshtml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwC0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:44:14.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CalculoDesconto.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CalculoDesconto.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CalculoDesconto.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CalculoDesconto.cshtml.cs",
+              "RelativeToolTip": "Pages\\CalculoDesconto.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:43:55.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CalcularEstadia.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CalcularEstadia.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CalcularEstadia.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\CalcularEstadia.cshtml.cs",
+              "RelativeToolTip": "Pages\\CalcularEstadia.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:43:52.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Clientes\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Clientes\\Index.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:43:46.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Clientes\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Clientes\\Edit.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:43:42.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Clientes\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Clientes\\Details.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:43:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Clientes\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Clientes\\Delete.cshtml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:43:36.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Clientes\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Clientes\\Create.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:43:31.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Clientes\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Documents\\assessment csharp\\AgenciaTurismo\\Pages\\Clientes\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\Clientes\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T20:43:29.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

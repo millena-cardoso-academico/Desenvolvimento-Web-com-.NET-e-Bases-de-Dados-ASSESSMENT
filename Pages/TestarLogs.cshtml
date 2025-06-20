@@ -1,0 +1,51 @@
+﻿@page
+@model AgenciaTurismo.Pages.TestarLogsModel
+@{
+    ViewData["Title"] = "Teste de Multicast Delegate";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    Clique no botão abaixo para simular a criação de uma reserva.
+    Uma única ação irá disparar três métodos de log (Console, Arquivo e Memória) através do multicast delegate.
+</p>
+
+<form method="post">
+    <button type="submit" class="btn btn-info">Simular Criação de Reserva e Registrar Log</button>
+</form>
+
+<hr />
+
+<h3>Logs Registrados em Memória:</h3>
+
+@if (Model.LogsNaMemoria != null && Model.LogsNaMemoria.Any())
+{
+    <div class="card">
+        <div class="card-body">
+            <ul>
+                @foreach (var log in Model.LogsNaMemoria)
+                {
+                    <li><code>@log</code></li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+else
+{
+    <p>Nenhum log em memória ainda. Clique no botão para registrar o primeiro.</p>
+}
+
+<hr />
+<div>
+    <p>
+        ✔️ <strong>Log em Memória:</strong> exibido acima.
+    </p>
+    <p>
+        ✔️ <strong>Log em Console:</strong> verifique a janela de <strong>Saída (Output)</strong> no Visual Studio").
+    </p>
+    <p>
+        ✔️ <strong>Log em Arquivo:</strong> verifique o arquivo <code>log_operacoes.txt</code> na pasta raiz do projeto.
+    </p>
+</div>

@@ -1,0 +1,24 @@
+﻿@page
+@model AgenciaTurismo.Pages.SimularReservasModel
+@{
+    ViewData["Title"] = "Simulação de Evento de Capacidade";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="card">
+    <div class="card-header">
+        <h4>Pacote: @Model.PacoteTeste.Titulo</h4>
+    </div>
+    <div class="card-body">
+        <p><strong>Capacidade Máxima:</strong> @Model.PacoteTeste.CapacidadeMaxima</p>
+        <p><strong>Reservas Atuais:</strong> @Model.PacoteTeste.Reservas.Count</p>
+
+        <form method="post">
+            <button type="submit" class="btn btn-primary">Adicionar 1 Reserva</button>
+        </form>
+    </div>
+</div>
+
+<hr />
+

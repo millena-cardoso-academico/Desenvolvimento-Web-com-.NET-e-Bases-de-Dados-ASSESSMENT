@@ -1,0 +1,54 @@
+﻿@page "{id:int}"
+@model AgenciaTurismo.Pages.PacoteDetailsModel
+@{
+    ViewData["Title"] = "Detalhes do Pacote";
+}
+
+@if (Model.Pacote != null)
+{
+    <h1>@Model.Pacote.Titulo</h1>
+
+    <div>
+        <h4>Detalhes do Pacote Turístico</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Pacote.Id)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Pacote.Id)
+            </dd>
+
+            <dt class="col-sm-3">
+                Data de Partida
+            </dt>
+            <dd class="col-sm-9">
+                @Model.Pacote.DataPartida.ToShortDateString()
+            </dd>
+
+            <dt class="col-sm-3">
+                Duração
+            </dt>
+            <dd class="col-sm-9">
+                @Model.Pacote.DuracaoDias dias
+            </dd>
+
+            <dt class="col-sm-3">
+                Preço por Pessoa
+            </dt>
+            <dd class="col-sm-9">
+                @Model.Pacote.Preco.ToString("C")
+            </dd>
+
+            <dt class="col-sm-3">
+                Capacidade Máxima
+            </dt>
+            <dd class="col-sm-9">
+                @Model.Pacote.CapacidadeMaxima pessoas
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-page="/PacoteList">Voltar para a Lista</a>
+    </div>
+}

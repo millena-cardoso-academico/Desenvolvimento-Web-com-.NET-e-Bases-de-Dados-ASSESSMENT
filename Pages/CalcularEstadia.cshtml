@@ -1,0 +1,43 @@
+﻿@page
+@model AgenciaTurismo.Pages.CalcularEstadiaModel
+@{
+    ViewData["Title"] = "Calcular Valor da Estadia";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    Use o formulário pra calcular o valor total de uma estadia.
+</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group mb-2">
+                <label asp-for="NumeroDiarias">Número de Diárias</label>
+                <input asp-for="NumeroDiarias" type="number" class="form-control" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="ValorDiaria">Valor da Diária (R$)</label>
+                <input asp-for="ValorDiaria" type="number" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Calcular Total" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr />
+
+@if (Model.ValorTotal.HasValue)
+{
+    <div class="alert alert-info mt-3">
+        <h4>Resultado do Cálculo</h4>
+        <p>
+            O valor total para <strong>@Model.NumeroDiarias</strong> diárias a
+            <strong>@Model.ValorDiaria.ToString("C")</strong> cada é de:
+        </p>
+        <h2>@Model.ValorTotal.Value.ToString("C")</h2>
+    </div>
+}

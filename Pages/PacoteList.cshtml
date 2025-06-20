@@ -1,0 +1,32 @@
+﻿@page
+@model AgenciaTurismo.Pages.PacoteListModel
+@{
+    ViewData["Title"] = "Lista de Pacotes";
+}
+
+<h1>Nossos Pacotes Turísticos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Data de Partida</th>
+            <th>Preço</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pacote in Model.Pacotes)
+        {
+            <tr>
+                <td>@pacote.Titulo</td>
+                <td>@pacote.DataPartida.ToShortDateString()</td>
+                <td>@pacote.Preco.ToString("C")</td>
+                <td>
+                    @* Este é o link dinâmico! *@
+                    <a asp-page="/PacoteDetails" asp-route-id="@pacote.Id" class="btn btn-info btn-sm">Detalhes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
