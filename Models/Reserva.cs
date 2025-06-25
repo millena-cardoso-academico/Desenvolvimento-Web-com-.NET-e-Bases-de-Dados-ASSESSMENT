@@ -1,18 +1,23 @@
-﻿namespace AgenciaTurismo.Models
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
+namespace AgenciaTurismo.Models
 {
     public class Reserva
     {
         public int Id { get; set; }
         public DateTime DataReserva { get; set; }
 
-        // Chave Estrangeira para Cliente
+
+        [Range(1, int.MaxValue, ErrorMessage = "É obrigatório selecionar um cliente.")]
+        [Display(Name = "Cliente")]
         public int ClienteId { get; set; }
-        // Prop. de Navegação: Cada reserva pertence a UM Cliente.
+       
+        [ValidateNever] 
         public Cliente Cliente { get; set; }
 
         // Chave Estrangeira para PacoteTuristico
         public int PacoteTuristicoId { get; set; }
-        // Prop. de Navegação: Cada reserva pertence a UM Pacote.
+        [ValidateNever] 
         public PacoteTuristico PacoteTuristico { get; set; }
     }
 }

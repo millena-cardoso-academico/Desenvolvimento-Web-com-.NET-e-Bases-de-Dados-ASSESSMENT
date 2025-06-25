@@ -26,9 +26,8 @@ namespace AgenciaTurismo.Pages.Pacotes
             }
 
             var pacoteturistico = await _context.PacotesTuristicos
-                                                .Include(p => p.Destinos)
-                                                .FirstOrDefaultAsync(m => m.Id == id);
-
+                                        .Include(p => p.Destinos)
+                                        .FirstOrDefaultAsync(m => m.Id == id);
             if (pacoteturistico == null)
             {
                 return NotFound();
