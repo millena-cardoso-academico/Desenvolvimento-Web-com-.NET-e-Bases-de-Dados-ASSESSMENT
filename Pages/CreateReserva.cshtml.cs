@@ -61,7 +61,30 @@ namespace AgenciaTurismo.Pages
                 return Page();
             }
 
+            var pacote = await _context.PacotesTuristicos
+                               .Include(p => p.Reservas)
+                               .FirstOrDefaultAsync(p => p.Id == NovaReserva.PacoteTuristicoId);
 
+            if (pacote == null)
+            {
+                ModelState.AddModelError(string.Empty, "O pacote selecionado não foi encontrado.");
+                await RecarregarDadosDaPagina(NovaReserva.PacoteTuristicoId);
+                return Page();
+            }
+
+            if (pacote.DataPartida <= DateTime.Today)
+            {
+                ModelState.AddModelError(string.Empty, "Este pacote não pode ser reservado pois sua data de partida já passou.");
+                await RecarregarDadosDaPagina(NovaReserva.PacoteTuristicoId);
+                return Page();
+            }
+
+            if (pacote.Reservas.Count >= pacote.CapacidadeMaxima)
+            {
+                ModelState.AddModelError(string.Empty, $"Não há mais vagas para este pacote. A capacidade máxima é de {pacote.CapacidadeMaxima} participantes.");
+                await RecarregarDadosDaPagina(NovaReserva.PacoteTuristicoId);
+                return Page();
+            }
             NovaReserva.DataReserva = DateTime.Now;
 
             _context.Reservas.Add(NovaReserva);

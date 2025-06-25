@@ -23,7 +23,11 @@ namespace AgenciaTurismo.Pages.Pacotes
 
         public async Task OnGetAsync()
         {
-            PacoteTuristico = await _context.PacotesTuristicos.ToListAsync();
+            PacoteTuristico = await _context.PacotesTuristicos
+                            .Include(p => p.Reservas) 
+                            .Where(p => p.DataPartida > DateTime.Today)
+                            .OrderBy(p => p.DataPartida)
+                            .ToListAsync();
         }
     }
 }
