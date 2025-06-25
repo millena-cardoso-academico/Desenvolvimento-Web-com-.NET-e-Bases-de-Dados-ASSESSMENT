@@ -75,7 +75,7 @@ Siga os passos abaixo para configurar e rodar a aplicação em um ambiente de de
 Para acessar as áreas protegidas da aplicação, utilize as seguintes credenciais:
 
 * **Usuário:** `admin`
-* **Senha:** `password`
+* **Senha:** `12345`
 
 ---
 
