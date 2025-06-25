@@ -1,6 +1,7 @@
 using AgenciaTurismo.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using AgenciaTurismo.Models;
 
 namespace AgenciaTurismo
 {
@@ -40,7 +41,28 @@ namespace AgenciaTurismo
             app.UseAuthorization();
 
             app.MapRazorPages();
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var context = services.GetRequiredService<AgenciaTurismoContext>();
 
+                context.Database.EnsureCreated();
+
+                // Verifica se a tabela de países está vazia
+                if (!context.PaisesDestino.Any())
+                {
+                    // Se estiver vazia, adiciona os dados iniciais
+                    context.PaisesDestino.AddRange(
+                        new PaisDestino { Nome = "Brasil" },
+                        new PaisDestino { Nome = "Portugal" },
+                        new PaisDestino { Nome = "Itália" },
+                        new PaisDestino { Nome = "França" },
+                        new PaisDestino { Nome = "Japão" }
+                    );
+                    // Salva os dados no banco
+                    context.SaveChanges();
+                }
+            }
             app.Run();
         }
     }

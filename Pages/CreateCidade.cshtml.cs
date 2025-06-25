@@ -1,7 +1,9 @@
+using AgenciaTurismo.Data;
 using AgenciaTurismo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering; // Necessário no SelectList
+using Microsoft.EntityFrameworkCore;
 
 namespace AgenciaTurismo.Pages
 {
@@ -10,40 +12,34 @@ namespace AgenciaTurismo.Pages
         [BindProperty]
         public CidadeDestino Cidade { get; set; }
 
+        private readonly AgenciaTurismoContext _context;
         // Propriedade para popular o dropdown de países.
         public SelectList PaisesSelectList { get; set; }
-
-        // Método para carregar dados iniciais (simulados)
-        private void CarregarPaises()
+        public CreateCidadeModel(AgenciaTurismoContext context)
         {
-            // Simulação de busca de países no banco de dados.
-            var paises = new List<PaisDestino>
-            {
-                new PaisDestino { Id = 1, Nome = "Brasil" },
-                new PaisDestino { Id = 2, Nome = "Portugal" },
-                new PaisDestino { Id = 3, Nome = "Itália" }
-            };
+            _context = context;
+        }
+        // Método para carregar dados iniciais (simulados)
+        private async Task CarregarPaisesAsync()
+        {
+            var paises = await _context.PaisesDestino.OrderBy(p => p.Nome).ToListAsync();
             PaisesSelectList = new SelectList(paises, "Id", "Nome");
         }
 
-
-        public void OnGet()
+        public async Task OnGetAsync()
         {
-            CarregarPaises();
+            await CarregarPaisesAsync();
         }
-
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
 
             if (!ModelState.IsValid)
             {
-                // Se o modelo NÃO é válido, eu recarrego a lista de países
-                // (senão o dropdown ficaria vazio) e retorno a própria página.
-                CarregarPaises();
+                CarregarPaisesAsync();
                 return Page();
             }
-
-           
+            _context.CidadesDestino.Add(Cidade);
+            await _context.SaveChangesAsync();
             TempData["SuccessMessage"] = $"A cidade '{Cidade.Nome}' foi cadastrada com sucesso!";
 
             return RedirectToPage("./Index");

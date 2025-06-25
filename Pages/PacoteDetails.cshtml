@@ -13,6 +13,24 @@
         <hr />
         <dl class="row">
             <dt class="col-sm-3">
+                Destinos Incluídos
+            </dt>
+            <dd class="col-sm-9">
+                @if (Model.Pacote.Destinos != null && Model.Pacote.Destinos.Any())
+                {
+                    <ul>
+                        @foreach (var destino in Model.Pacote.Destinos)
+                        {
+                            <li>@destino.Nome</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <span>Nenhum destino associado.</span>
+                }
+            </dd>
+            <dt class="col-sm-3">
                 @Html.DisplayNameFor(model => model.Pacote.Id)
             </dt>
             <dd class="col-sm-9">
